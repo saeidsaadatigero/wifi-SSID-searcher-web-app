@@ -18,7 +18,7 @@ http://127.0.0.1:8000/
   ### ⚙️ Installation
   Connecting to real Wi-Fi networks from a web application is not a common or recommended practice due to security concerns. However, I can guide you on how to display available Wi-Fi networks (SSIDs) using Python and Django. Keep in mind that this will only work on your local development machine, and connecting to Wi-Fi networks will not be possible through a web application in a secure way.
 
-Here's a simple example that uses the wifi library to retrieve available Wi-Fi SSIDs. First, you need to install the wifi library:
+First, you need to install the wifi library:
 
 #### Using `pip`
 
