@@ -1,0 +1,64 @@
+/* wifi_app/static/css/styles.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5; /* Background color for the entire page */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Header text color */
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd; /* Table cell border color */
+}
+
+th {
+    background-color: #4CAF50; /* Header background color */
+    color: white; /* Header text color */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    padding: 8px 16px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: #ccc;
+}

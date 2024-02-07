@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+
+    <title>Available WiFis</title>
+</head>
+<body>
+
+    <h1>Available WiFis</h1>
+
+    <form method="get" action="{% url 'home' %}">
+        <button type="submit">Search</button>
+    </form>
+
+    <ul>
+        {% for wifi in wifis %}
+            <li>{{ wifi }} <a href="{% url 'connect' wifi %}">Connect</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
