@@ -10,11 +10,10 @@
 
 * Python: 3.10+
 * Package manager or container runtime: `pip` or `docker` recommended.
-* 
-When you're ready, start your application by running:
-`docker compose up --build`.
-
+* Run on Docker port:
 Your application will be available at http://localhost:8000.
+* Run on Django port:
+http://127.0.0.1:8000/
 
   ### ⚙️ Installation
   Connecting to real Wi-Fi networks from a web application is not a common or recommended practice due to security concerns. However, I can guide you on how to display available Wi-Fi networks (SSIDs) using Python and Django. Keep in mind that this will only work on your local development machine, and connecting to Wi-Fi networks will not be possible through a web application in a secure way.
